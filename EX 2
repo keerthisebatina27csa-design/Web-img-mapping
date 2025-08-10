@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HungryCart</title>
+</head>
+<body bgcolor="#e8f5e9" align="center">
+
+  <h1 style="color:green;">HungryCart</h1>
+
+  <nav>
+    <a href="#fruits">Fruits</a> |
+    <a href="#vegetables">Vegetables</a> 
+  </nav>
+
+  <hr>
+
+  <!-- Fruits Section -->
+  <h2 id="fruits">🍎 Fruits</h2>
+  <img src="https://cdn.pixabay.com/photo/2016/01/05/13/58/apple-1122537_640.jpg" alt="Apples" width="200">
+  <p>Fresh fruits sourced from local farms, hand-picked daily.</p>
+
+  <table border="1" align="center" cellpadding="5">
+    <tr bgcolor="green" style="color:white">
+      <th>Fruit</th>
+      <th>Price</th>
+      <th>Season</th>
+    </tr>
+    <tr>
+      <td>Apple</td>
+      <td>Rs 300</td>
+      <td>Spring</td>
+    </tr>
+    <tr>
+      <td>Banana</td>
+      <td>Rs 150</td>
+      <td>Year-round</td>
+    </tr>
+    <tr>
+      <td>Strawberry</td>
+      <td>Rs 250</td>
+      <td>Spring/Summer</td>
+    </tr>
+  </table>
+
+  <br><hr>
+
+  <!-- Vegetables Section -->
+  <h2 id="vegetables">🥦 Vegetables</h2>
+  <img src="https://cdn.pixabay.com/photo/2017/10/09/19/29/eat-2834549_640.jpg" alt="Vegetables" width="200">
+  <p>Organic vegetables grown without pesticides.</p>
+
+  <table border="1" align="center" cellpadding="5">
+    <tr bgcolor="green" style="color:white">
+      <th>Vegetable</th>
+      <th>Price</th>
+      <th>Organic</th>
+    </tr>
+    <tr>
+      <td>Carrot</td>
+      <td>Rs 95</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <td>Cauliflower</td>
+      <td>Rs 145</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <td>Spinach</td>
+      <td>Rs 130</td>
+      <td>Yes</td>
+    </tr>
+  </table>
+
+  <br><hr>
+  <p>&copy; HungryCart Since 2025. All rights reserved.</p>
+
+</body>
+</html>
