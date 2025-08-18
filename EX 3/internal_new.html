@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vegetables</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #e8f5e9; 
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: #1b5e20;
+            text-align: center;
+            text-shadow: 1px 1px 2px #ccc;
+            background-color: #a5d6a7;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+        .vegetables-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 25px;
+        }
+        .vegetable-card {
+            background: linear-gradient(135deg, #ffffff, #f1f8e9);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            padding: 15px;
+            width: 280px;
+            transition: transform 0.3s;
+            border-top: 5px solid #4caf50;
+        }
+        .vegetable-card:hover {
+            transform: translateY(-5px);
+        }
+        .vegetable-img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 8px;
+            border: 2px solid #81c784;
+        }
+        .vegetable-name {
+            color: #2e7d32;
+            margin-bottom: 5px;
+            font-size: 22px;
+        }
+       
+        .vegetable-price {
+            font-size: 18px;
+            color: #333;
+            margin: 5px 0;
+        }
+       
+        .price-value {
+            font-weight: bold;
+            color: #d84315;
+        }
+       
+        .fresh-tag {
+            display: inline-block;
+            padding: 3px 10px;
+            border-radius: 12px;
+            font-size: 14px;
+            margin: 5px 0;
+        }
+       
+        .fresh {
+            background-color: #c8e6c9;
+            color: #1b5e20;
+        }
+       
+        .not-fresh {
+            background-color: #ffcdd2;
+            color: #c62828;
+        }
+       
+        .location {
+            color: #455a64;
+            margin: 5px 0;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🥕 HungryCart 🥦</h1>
+       
+        <div class="vegetables-grid">
+            <div class="vegetable-card">
+                <img src="https://ucarecdn.com/459eb7be-115a-4d85-b1d8-deaabc94c643/-/format/auto/-/preview/3000x3000/-/quality/lighter/" alt="Carrot" class="vegetable-img">
+                <h2 class="vegetable-name">Carrot</h2>
+                <p class="vegetable-price">
+                    <span class="price-value">Rs 50</span> per kilo
+                </p>
+                <p>
+                    <span class="fresh-tag fresh">Fresh</span>
+                </p>
+                <p class="location">
+                    <span>🗺️</span> Grown in Ooty
+                </p>
+            </div>
+           
+            <div class="vegetable-card">
+                <img src="https://www.verywellhealth.com/thmb/wK9PMBR6JBbJgDRNab5LrZNDMIA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/VWH-GettyImages-1396569940-2163c2aed5814484a20caba84e1d88ca.jpg" alt="Cabbage" class="vegetable-img">
+                <h2 class="vegetable-name">Capsicum</h2>
+                <p class="vegetable-price">
+                    <span class="price-value">Rs 50</span> per kilo
+                </p>
+                <p>
+                    <span class="fresh-tag fresh">Fresh</span>
+                </p>
+                <p class="location">
+                    <span>🗺️</span> Grown in Krishnagiri
+                </p>
+            </div>
+
+            <div class="vegetable-card">
+                <img src="https://fthmb.tqn.com/515C0Z7UUhZzPSiFMx2ZcbMsjfY=/5440x4080/filters:fill(87E3EF,1)/103340494-56a6b49d5f9b58b7d0e462a1.jpg" alt="Potato" class="vegetable-img">
+                <h2 class="vegetable-name">Potato</h2>
+                <p class="vegetable-price">
+                    <span class="price-value">Rs 45</span> per kilo
+                </p>
+                <p>
+                    <span class="fresh-tag not-fresh">Not Fresh</span>
+                </p>
+                <p class="location">
+                    <span>🗺️</span> Grown in Nilgiris
+                </p>
+            </div>
+    
+            <div class="vegetable-card">
+                <img src="https://www.almanac.com/sites/default/files/image_nodes/tomatoes_helios4eos_gettyimages-edit.jpeg" alt="Tomato" class="vegetable-img">
+                <h2 class="vegetable-name">Tomato</h2>
+                <p class="vegetable-price">
+                    <span class="price-value">Rs 60</span> per kilo
+                </p>
+                <p>
+                    <span class="fresh-tag fresh">Fresh</span>
+                </p>
+                <p class="location">
+                    <span>🗺️</span> Grown in Bangalore
+                </p>
+            </div>
+
+            <div class="vegetable-card">
+                <img src="https://e1.pxfuel.com/desktop-wallpaper/830/800/desktop-wallpaper-cabbage-food-hq-cabbage.jpg" alt="Cabbage" class="vegetable-img">
+                <h2 class="vegetable-name">Cabbage</h2>
+                <p class="vegetable-price">
+                    <span class="price-value">Rs 70</span> per kilo
+                </p>
+                <p>
+                    <span class="fresh-tag not-fresh">Fresh</span>
+                </p>
+                <p class="location">
+                    <span>🗺️</span> Grown in Tanjore
+                </p>
+            </div>
+</body>
+</html>
