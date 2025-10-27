@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="grocery_style.xsl"?>
+<groceries>
+    <item>
+        <id>1</id>
+        <name>Apples</name>
+        <category>Fruits</category>
+        <price>250</price>
+        <stock>120</stock>
+    </item>
+    <item>
+        <id>2</id>
+        <name>Milk</name>
+        <category>Dairy</category>
+        <price>40</price>
+        <stock>80</stock>
+    </item>
+    <item>
+        <id>3</id>
+        <name>Bread</name>
+        <category>Bakery</category>
+        <price>50</price>
+        <stock>150</stock>
+    </item>
+    <item>
+        <id>4</id>
+        <name>Tomatoes</name>
+        <category>Vegetables</category>
+        <price>45</price>
+        <stock>100</stock>
+    </item>
+    <item>
+        <id>5</id>
+        <name>Rice</name>
+        <category>Grains</category>
+        <price>320</price>
+        <stock>200</stock>
+    </item>
+</groceries>
