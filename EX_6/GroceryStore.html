@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HungryCart - Welcome</title>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            background: linear-gradient(135deg, #C6F5D0 0%, #9AE79D 100%);
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #2E7D32;
+        }
+        h3 {
+            color: #388E3C;
+        }
+        input[type="submit"] {
+            background-color: #388E3C;
+            color: white;
+            font-weight: bold;
+            border: none;
+            padding: 8px 15px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        input[type="submit"]:hover {
+            background-color: #2E7D32;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to HungryCart Grocery Store!</h1>
+    <form action="GroceryServlet" method="get">
+        <h3>Select groceries to add to your cart:</h3>
+        <input type="checkbox" name="item" value="Fresh Apple"> Fresh Apple<br>
+        <input type="checkbox" name="item" value="Organic Milk"> Organic Milk<br>
+        <input type="checkbox" name="item" value="Whole Wheat Bread"> Whole Wheat Bread<br>
+        <input type="checkbox" name="item" value="Eggs"> Eggs<br>
+        <input type="checkbox" name="item" value="Cheese"> Cheese<br>
+        <input type="hidden" name="action" value="viewCart">
+        <input type="submit" value="View Cart">
+    </form>
+</body>
+</html>
