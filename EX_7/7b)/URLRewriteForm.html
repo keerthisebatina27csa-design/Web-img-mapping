@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <title>HungryCart - URL Rewriting</title>
+    <style>
+      body {
+        background-color: #ccffcc;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin-top: 100px;
+      }
+      form {
+        display: inline-block;
+        background-color: #eaffea;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 0 15px rgba(0, 100, 0, 0.2);
+      }
+      input[type="text"] {
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #2e8b57;
+        width: 80%;
+      }
+      input[type="submit"] {
+        background-color: #2e8b57;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        font-weight: bold;
+        cursor: pointer;
+        margin-top: 10px;
+      }
+      input[type="submit"]:hover {
+        background-color: #228b22;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="color:green;">HungryCart - URL Rewriting Demo</h1>
+    <form action="URLRewriteForm" method="get">
+      <label for="userName"><b>Enter Your Name:</b></label><br/><br/>
+      <input type="text" id="userName" name="userName" required/><br/><br/>
+      <input type="submit" value="Go"/>
+    </form>
+  </body>
+</html>

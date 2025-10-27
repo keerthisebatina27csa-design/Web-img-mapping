@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HungryCart - Grocery Category</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #C6F5D0 0%, #9AE79D 100%);
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+        }
+        .container {
+            max-width: 500px;
+            background: #fff;
+            margin: 60px auto;
+            padding: 30px;
+            border-radius: 14px;
+            box-shadow: 0 4px 16px rgba(41, 163, 163, 0.1);
+            text-align: center;
+        }
+        h1 {
+            color: #2E7D32;
+            margin-bottom: 8px;
+        }
+        h2 {
+            color: #388E3C;
+            font-weight: normal;
+            margin-bottom: 24px;
+        }
+        input[type="text"] {
+            border: 2px solid #2E7D32;
+            border-radius: 6px;
+            padding: 8px;
+            width: 60%;
+            font-size: 15px;
+        }
+        input[type="submit"] {
+            background: #388E3C;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            padding: 8px 24px;
+            font-size: 16px;
+            margin-top: 14px;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        input[type="submit"]:hover {
+            background: #2E7D32;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>HungryCart</h1>
+        <h2>Set or Show Your Preferred Grocery Category</h2>
+        <form action="CookieServlet" method="post">
+            Enter grocery category:
+            <input type="text" name="groc_cat">
+            <br>
+            <input type="submit" name="action" value="Set Cookie">
+            <input type="submit" name="action" value="Show Cookie">
+        </form>
+    </div>
+</body>
+</html>
